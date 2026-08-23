@@ -1,0 +1,6 @@
+name: cave update
+version: '${version}'
+
+main: Korol_minetov.caveUpdate.CaveUpdate
+api-version: '1.20'
+load: POSTWORLD
