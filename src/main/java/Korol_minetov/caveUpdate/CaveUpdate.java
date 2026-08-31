@@ -5,8 +5,13 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.TabCompleter;
+import org.bukkit.entity.Item;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -46,7 +51,27 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
     }
     @EventHandler
     public void oninteract(PlayerInteractEvent Event){
+        if (Event.getAction()==Action.LEFT_CLICK_BLOCK&&Event.getClickedBlock()!=null){
+            if (isbur(Event.getItem())){
+                za1cekyndydo.put(Event.getPlayer().getUniqueId(),Event.getBlockFace());
+            }
+        }
+    }
+    @EventHandler(priority=EventPriority.HIGH,ignoreCancelled = true)
+    public void burlamat3x3(BlockBreakEvent Event){
+        Block center=Event.getBlock();
+        if (skameika_zapasnih.contains(center)) return;
+        Player player=Event.getPlayer();
+        ItemStack item=player.getInventory().getItemInMainHand();
+        if (!isbur(item)) return;
+        BlockFace posledni_vzglyad=za1cekyndydo.getOrDefault(player.getUniqueId(),BlockFace.UP);
 
+        int minX=-1,maxX=1,minY=-1,maxY=1,minZ=-1,maxZ=1;
+        if (posledni_vzglyad==BlockFace.UP||posledni_vzglyad==BlockFace.DOWN){
+            minY=0;
+            maxY=0;
+        }
+        else if
     }
     @Override
     public void onDisable() {
