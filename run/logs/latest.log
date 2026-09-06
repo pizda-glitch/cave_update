@@ -1,8 +1,4 @@
-[20:19:08] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[20:19:22] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 14200ms.
-[20:19:22] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\User\IdeaProjects\cave update\build\libs\cave update-1.0-SNAPSHOT.jar'...
-[20:19:22] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\User\IdeaProjects\cave update\build\libs\cave update-1.0-SNAPSHOT.jar' in 132ms.
-[20:19:23] [ServerMain/ERROR]: [PluginFlagProviderSource] Error loading plugin: Restricted name, cannot use 0x20 (space character) in a plugin name.
+[10:51:11] [ServerMain/ERROR]: [PluginFlagProviderSource] Error loading plugin: Restricted name, cannot use 0x20 (space character) in a plugin name.
 org.bukkit.plugin.InvalidDescriptionException: Restricted name, cannot use 0x20 (space character) in a plugin name.
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProviderFactory.build(SpigotPluginProviderFactory.java:45) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProviderFactory.build(SpigotPluginProviderFactory.java:28) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
@@ -16,5 +12,49 @@ org.bukkit.plugin.InvalidDescriptionException: Restricted name, cannot use 0x20 
 	at org.bukkit.craftbukkit.Main.main(Main.java:328) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:19:36] [ServerMain/WARN]: Failed to load eula.txt
-[20:19:36] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[10:51:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:51:24] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[10:51:24] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[10:51:27] [ServerMain/INFO]: No existing world data, creating new world
+[10:51:30] [ServerMain/INFO]: Loaded 1175 recipes
+[10:51:31] [ServerMain/INFO]: Loaded 1276 advancements
+[10:51:32] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[10:51:32] [Server thread/INFO]: Loading properties
+[10:51:32] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[10:51:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:51:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:51:35] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[10:51:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[10:51:36] [Server thread/INFO]: Default game type: SURVIVAL
+[10:51:36] [Server thread/INFO]: Generating keypair
+[10:51:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:51:36] [Server thread/INFO]: Using default channel type
+[10:51:36] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:51:36] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:51:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:51:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:51:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:51:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:51:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:51:37] [Server thread/INFO]: Preparing level "world"
+[10:51:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:52:10] [Server thread/INFO]: Time elapsed: 12220 ms
+[10:52:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:52:15] [Server thread/INFO]: Time elapsed: 4764 ms
+[10:52:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:52:16] [Server thread/INFO]: Time elapsed: 835 ms
+[10:52:16] [Server thread/INFO]: Running delayed init tasks
+[10:52:16] [Server thread/INFO]: Done (44.290s)! For help, type "help"
+[10:52:16] [Server thread/INFO]: Timings Reset
+[10:52:28] [User Authenticator #0/INFO]: UUID of player sosal_3000 is d2f3bdc5-4ee7-3c4d-b067-8ae73ab9a766
+[10:52:36] [Server thread/INFO]: sosal_3000 joined the game
+[10:52:36] [Server thread/INFO]: sosal_3000[/127.0.0.1:63412] logged in with entity id 66 at ([world]10.5, 88.0, -5.5)
+[10:52:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3005ms or 60 ticks behind
+[10:53:14] [Server thread/INFO]: Made sosal_3000 a server operator
+[10:54:34] [Server thread/INFO]: sosal_3000 issued server command: /give sosal_3000 minecraft:netherite_pickaxe[minecraft:custom_model_data=6767]
+[10:54:34] [Server thread/INFO]: [sosal_3000: Gave 1 [Netherite Pickaxe] to sosal_3000]
+[10:54:47] [Server thread/INFO]: sosal_3000 has made the advancement [Stone Age]
+[10:55:40] [Server thread/INFO]: sosal_3000 lost connection: Disconnected
+[10:55:41] [Server thread/INFO]: sosal_3000 left the game

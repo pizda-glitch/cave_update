@@ -71,7 +71,28 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
             minY=0;
             maxY=0;
         }
-        else if
+        else if(posledni_vzglyad==BlockFace.EAST||posledni_vzglyad==BlockFace.WEST){
+            minX=0;
+            maxX=0;
+        }
+        else if(posledni_vzglyad==BlockFace.NORTH||posledni_vzglyad==BlockFace.SOUTH){
+            minZ=0;
+            maxZ=0;
+        }
+        List<String> nigrist=getConfig().getStringList("bur.blacklisted-blocks");
+        for(int x=minX;x<=maxX;x++){
+            for(int y=minY;y<=maxY;y++){
+                for (int z=minZ;z<=maxZ;z++){
+                    if (x==0||y==0||z==0){continue;}
+                    Block zhertva=center.getRelative(x,y,z);
+                    if (zhertva.getType().isAir()||zhertva.getType().getHardness()<0){continue;}
+                    if (nigrist.contains(zhertva.getType().name())){continue;}
+                    skameika_zapasnih.add(zhertva);
+                    zhertva.breakNaturally();
+                    skameika_zapasnih.remove(zhertva);
+                }
+            }
+        }
     }
     @Override
     public void onDisable() {
