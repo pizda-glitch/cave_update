@@ -1,0 +1,18 @@
+bur:
+  material: NETHERITE_PICKAXE
+  custom-model-data: 6767
+  name: "&6&lБур 3х3"
+  lore:
+    - "ydali telephon"
+  blacklisted-blocks:
+    - BEDROCK
+    - BARRIER
+    - END_PORTAL_FRAME
+    - COMMAND_BLOCK
+    - STRUCTURE_VOID
+super-furnace:
+  material: FURNACE
+  custom-model-data: 6768
+  name: "&c&lСупер Печь"
+  lore:
+    - "ydali telephon2"

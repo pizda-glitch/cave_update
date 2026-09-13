@@ -1,4 +1,4 @@
-name: cave update
+name: cave_update
 version: '${version}'
 
 main: Korol_minetov.caveUpdate.CaveUpdate

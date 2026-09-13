@@ -1,4 +1,4 @@
-name: cave update
+name: cave_update
 version: '1.0-SNAPSHOT'
 
 main: Korol_minetov.caveUpdate.CaveUpdate

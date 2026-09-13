@@ -83,10 +83,12 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
         for(int x=minX;x<=maxX;x++){
             for(int y=minY;y<=maxY;y++){
                 for (int z=minZ;z<=maxZ;z++){
-                    if (x==0||y==0||z==0){continue;}
+                    if (x==0&&y==0&&z==0){continue;}
+                    getLogger().info("rabotat");
                     Block zhertva=center.getRelative(x,y,z);
                     if (zhertva.getType().isAir()||zhertva.getType().getHardness()<0){continue;}
                     if (nigrist.contains(zhertva.getType().name())){continue;}
+                    getLogger().info("rabotat3");
                     skameika_zapasnih.add(zhertva);
                     zhertva.breakNaturally();
                     skameika_zapasnih.remove(zhertva);
