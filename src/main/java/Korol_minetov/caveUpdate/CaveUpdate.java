@@ -1,17 +1,20 @@
 package Korol_minetov.caveUpdate;
 
+import org.bukkit.Location;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Item;
+import org.bukkit.entity.ItemDisplay;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -36,6 +39,19 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
         pechka_blocka_grechkey=new NamespacedKey(this,"is_pechitmozhno");
         getServer().getPluginManager().registerEvents(this,this);
     }
+    public boolean ispech(ItemStack pech){
+        if(pech==null||!pech.hasItemMeta()){
+            return false;
+        }
+        ItemMeta meta=pech.getItemMeta();
+        if (meta==null){
+            return false;
+        }
+        if (meta.hasCustomModelData()&&meta.getCustomModelData()==6768){
+            return true;
+        }
+        return false;
+    }
     public boolean isbur(ItemStack bur){
         if (bur==null||!bur.hasItemMeta()){
             return false;
@@ -48,6 +64,17 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
             return true;
         }
         return false;
+    }
+    @EventHandler
+    public void onBlockPlace(BlockPlaceEvent event) {
+       ItemStack pechka=event.getItemInHand();
+       if(ispech(pechka)){
+           Block block=event.getBlockPlaced();
+           Location locate=block.getLocation().add(0.5,0.5,0.5);
+           block.getWorld().spawn(locate,ItemDisplay.class,display->{
+
+           });
+       }
     }
     @EventHandler
     public void oninteract(PlayerInteractEvent Event){
