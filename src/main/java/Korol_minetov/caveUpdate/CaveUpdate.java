@@ -1,6 +1,7 @@
 package Korol_minetov.caveUpdate;
 
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -93,6 +94,7 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
         if (!isbur(item)) return;
         BlockFace posledni_vzglyad=za1cekyndydo.getOrDefault(player.getUniqueId(),BlockFace.UP);
 
+
         int minX=-1,maxX=1,minY=-1,maxY=1,minZ=-1,maxZ=1;
         if (posledni_vzglyad==BlockFace.UP||posledni_vzglyad==BlockFace.DOWN){
             minY=0;
@@ -122,6 +124,18 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
                 }
             }
         }
+    }
+    public ItemStack crtmusor_drop(){
+        Material material= Material.FURNACE;
+        ItemStack item=new ItemStack(material);
+        ItemMeta itmmt=item.getItemMeta();
+        if (itmmt==null){
+            return item;
+        }
+        itmmt.setCustomModelData(6768);
+        itmmt.setDisplayName("&l&4super pechka");
+        item.setItemMeta(itmmt);
+        return item;
     }
     @Override
     public void onDisable() {
