@@ -127,7 +127,7 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
                     if ("superpech".equals(type)){
                         display.remove();
                         Event.setDropItems(false);
-                        center.getWorld().dropItemNaturally(center.getLocation(),createsuperfurnance());
+                        center.getWorld().dropItemNaturally(center.getLocation(),crtmusor_drop());
                     }
                 }
             });
@@ -170,11 +170,11 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
         Material material= Material.FURNACE;
         ItemStack item=new ItemStack(material);
         ItemMeta itmmt=item.getItemMeta();
-        if (itmmt==null){
+        if (itmmt==null) {
             return item;
         }
-        itmmt.setCustomModelData(6768);
         itmmt.setDisplayName("&l&4super pechka");
+        itmmt.setCustomModelData(6768);
         item.setItemMeta(itmmt);
         return item;
     }
