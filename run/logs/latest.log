@@ -1,463 +1,58 @@
-[10:32:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\User\IdeaProjects\cave update\build\libs\cave update-1.0-SNAPSHOT.jar'...
-[10:32:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\User\IdeaProjects\cave update\build\libs\cave update-1.0-SNAPSHOT.jar' in 754ms.
-[10:32:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:32:45] [ServerMain/INFO]: Loaded 1175 recipes
-[10:32:46] [ServerMain/INFO]: Loaded 1276 advancements
-[10:32:46] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[10:32:46] [Server thread/INFO]: Loading properties
-[10:32:46] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[10:32:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:32:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:32:48] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[10:25:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\User\IdeaProjects\cave update\build\libs\cave update-1.0-SNAPSHOT.jar'...
+[10:25:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\User\IdeaProjects\cave update\build\libs\cave update-1.0-SNAPSHOT.jar' in 841ms.
+[10:25:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:25:26] [ServerMain/INFO]: Loaded 1177 recipes
+[10:25:26] [ServerMain/INFO]: Loaded 1276 advancements
+[10:25:26] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[10:25:26] [Server thread/INFO]: Loading properties
+[10:25:26] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[10:25:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:25:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:25:29] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[10:32:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[10:32:49] [Server thread/INFO]: Default game type: SURVIVAL
-[10:32:49] [Server thread/INFO]: Generating keypair
-[10:32:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:32:49] [Server thread/INFO]: Using default channel type
-[10:32:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[10:32:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:32:49] [Server thread/INFO]: [cave_update] Loading server plugin cave_update v1.0-SNAPSHOT
-[10:32:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:32:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:32:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:32:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:32:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:32:49] [Server thread/INFO]: Preparing level "world"
-[10:32:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:32:53] [Server thread/INFO]: Time elapsed: 2619 ms
-[10:32:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:32:53] [Server thread/INFO]: Time elapsed: 656 ms
-[10:32:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:32:53] [Server thread/INFO]: Time elapsed: 220 ms
-[10:32:53] [Server thread/INFO]: [cave_update] Enabling cave_update v1.0-SNAPSHOT
-[10:32:53] [Server thread/INFO]: [cave_update] time for industrialization
-[10:32:54] [Server thread/INFO]: Running delayed init tasks
-[10:32:54] [Server thread/INFO]: Done (7.449s)! For help, type "help"
-[10:32:54] [Server thread/INFO]: Timings Reset
-[10:32:54] [User Authenticator #0/INFO]: UUID of player sosal_3000 is d2f3bdc5-4ee7-3c4d-b067-8ae73ab9a766
-[10:32:55] [Server thread/INFO]: sosal_3000 joined the game
-[10:32:55] [Server thread/INFO]: sosal_3000[/127.0.0.1:60449] logged in with entity id 105 at ([world]10.699999988079071, 89.0, 7.697678981725861)
-[10:32:57] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat
-[10:32:58] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat
-[10:33:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat
-[10:33:01] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat
-[10:33:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat
-[10:33:04] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat
-[10:33:05] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat
-[10:33:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat
-[10:33:09] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat
-[10:33:14] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat
-[10:33:15] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat
-[10:33:17] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat
-[10:33:18] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat
-[10:33:19] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:21] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat
-[10:33:27] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat
-[10:33:28] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:29] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat
-[10:33:30] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat
-[10:33:47] [Server thread/INFO]: [cave_update] rabotat3
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:33:52] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat
-[10:34:00] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:02] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:06] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat
-[10:34:08] [Server thread/INFO]: [cave_update] rabotat3
-[10:34:32] [Server thread/INFO]: sosal_3000 lost connection: Disconnected
-[10:34:33] [Server thread/INFO]: sosal_3000 left the game
+[10:25:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[10:25:30] [Server thread/INFO]: Default game type: SURVIVAL
+[10:25:30] [Server thread/INFO]: Generating keypair
+[10:25:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:25:30] [Server thread/INFO]: Using default channel type
+[10:25:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:25:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:25:30] [Server thread/INFO]: [cave_update] Loading server plugin cave_update v1.0-SNAPSHOT
+[10:25:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:25:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:25:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:25:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:25:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:25:30] [Server thread/INFO]: Preparing level "world"
+[10:25:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:25:33] [Server thread/INFO]: Time elapsed: 1537 ms
+[10:25:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:25:33] [Server thread/INFO]: Time elapsed: 808 ms
+[10:25:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:25:35] [Server thread/INFO]: Time elapsed: 1165 ms
+[10:25:35] [Server thread/INFO]: [cave_update] Enabling cave_update v1.0-SNAPSHOT
+[10:25:35] [Server thread/INFO]: [cave_update] time for industrialization
+[10:25:35] [Server thread/INFO]: Running delayed init tasks
+[10:25:35] [Server thread/INFO]: Done (8.457s)! For help, type "help"
+[10:25:35] [Server thread/INFO]: Timings Reset
+[10:26:06] [User Authenticator #0/INFO]: UUID of player sosal_3000 is d2f3bdc5-4ee7-3c4d-b067-8ae73ab9a766
+[10:26:08] [Server thread/INFO]: sosal_3000 joined the game
+[10:26:08] [Server thread/INFO]: sosal_3000[/127.0.0.1:64534] logged in with entity id 114 at ([world]-17.67750540245638, 89.0, 5.378877887167554)
+[10:27:03] [Server thread/INFO]: sosal_3000 issued server command: /gamemode survival
+[10:27:03] [Server thread/INFO]: [sosal_3000: Set own game mode to Survival Mode]
+[10:27:05] [Server thread/INFO]: sosal_3000 issued server command: /gamemode creative
+[10:27:05] [Server thread/INFO]: [sosal_3000: Set own game mode to Creative Mode]
+[10:27:50] [Server thread/INFO]: sosal_3000 issued server command: /gamemode survival
+[10:27:50] [Server thread/INFO]: [sosal_3000: Set own game mode to Survival Mode]
+[10:27:52] [Server thread/INFO]: sosal_3000 fell from a high place
+[10:28:27] [Server thread/INFO]: sosal_3000 issued server command: /gamemode creative
+[10:28:27] [Server thread/INFO]: [sosal_3000: Set own game mode to Creative Mode]
+[10:28:43] [Server thread/INFO]: sosal_3000 issued server command: /summon bee ~ ~ ~ {Passengers:[{id:"minecraft:creeper"}]}
+[10:28:43] [Server thread/INFO]: [sosal_3000: Summoned new Bee]
+[10:28:48] [Server thread/INFO]: sosal_3000 issued server command: /gamemode survival
+[10:28:48] [Server thread/INFO]: [sosal_3000: Set own game mode to Survival Mode]
+[10:29:21] [Server thread/INFO]: sosal_3000 issued server command: /gamemode creative
+[10:29:21] [Server thread/INFO]: [sosal_3000: Set own game mode to Creative Mode]
+[10:29:33] [Server thread/INFO]: sosal_3000 lost connection: Disconnected
+[10:29:33] [Server thread/INFO]: sosal_3000 left the game

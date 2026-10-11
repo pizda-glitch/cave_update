@@ -1,11 +1,14 @@
 package Korol_minetov.caveUpdate;
 
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
+import org.bukkit.block.data.Directional;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.TabCompleter;
+import org.bukkit.entity.Display;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.ItemDisplay;
 import org.bukkit.entity.Player;
@@ -18,7 +21,12 @@ import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.util.Transformation;
+import org.jetbrains.annotations.NotNull;
+import org.joml.AxisAngle4f;
+import org.joml.Vector3f;
 
 import java.util.*;
 
@@ -69,10 +77,34 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
     public void onBlockPlace(BlockPlaceEvent event) {
        ItemStack pechka=event.getItemInHand();
        if(ispech(pechka)){
-           Block block=event.getBlockPlaced();
-           Location locate=block.getLocation().add(0.5,0.5,0.5);
-           block.getWorld().spawn(locate,ItemDisplay.class,display->{
-
+           Block pechka_block=event.getBlockPlaced();
+           Location locate=pechka_block.getLocation().add(0.5,0.5,0.5);
+           float spin=0f;
+           if (pechka_block.getBlockData() instanceof Directional directional){
+               BlockFace ygo_vostok=directional.getFacing();
+               spin=switch(ygo_vostok){
+                   case NORTH -> 180f;
+                   case EAST -> -90f;
+                   case SOUTH -> 0f;
+                   case WEST -> 90f;
+                   default -> 0f;
+               };
+           }
+           final float grand_final_Spin=spin;
+           pechka_block.getWorld().spawn(locate,ItemDisplay.class,display->{
+               ItemStack displitem=pechka;
+               display.setItemStack(displitem);
+               display.setBillboard(Display.Billboard.FIXED);
+               display.getPersistentDataContainer().set(pechka_blocka_grechkey, PersistentDataType.STRING,"superpech");
+               display.setItemDisplayTransform(ItemDisplay.ItemDisplayTransform.FIXED);
+               display.setTransformation(new Transformation(
+                       new Vector3f(0f,0f,0f),
+                       new AxisAngle4f(0f,0f,0f,0f),
+                       new Vector3f(0.2501f,0.2501f,0.2501f),
+                       new AxisAngle4f(0f,0f,0f,0f)
+               ));
+               display.setBrightness(new Display.Brightness(10,15));
+               display.setRotation(grand_final_Spin,0f);
            });
        }
     }
@@ -87,6 +119,19 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
     @EventHandler(priority=EventPriority.HIGH,ignoreCancelled = true)
     public void burlamat3x3(BlockBreakEvent Event){
         Block center=Event.getBlock();
+        if (center.getType()== Material.FURNACE){
+            Location furnacenter=center.getLocation().add(0.5,0.5,0.5);
+            center.getWorld().getNearbyEntities(furnacenter,0.2,0.2,0.2).forEach(entity ->{
+                if (entity instanceof ItemDisplay display) {
+                    String type=display.getPersistentDataContainer().get(pechka_blocka_grechkey,PersistentDataType.STRING);
+                    if ("superpech".equals(type)){
+                        display.remove();
+                        Event.setDropItems(false);
+                        center.getWorld().dropItemNaturally(center.getLocation(),createsuperfurnance());
+                    }
+                }
+            });
+        }
         if (skameika_zapasnih.contains(center)) return;
         Player player=Event.getPlayer();
         ItemStack item=player.getInventory().getItemInMainHand();
@@ -111,11 +156,9 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
             for(int y=minY;y<=maxY;y++){
                 for (int z=minZ;z<=maxZ;z++){
                     if (x==0&&y==0&&z==0){continue;}
-                    getLogger().info("rabotat");
                     Block zhertva=center.getRelative(x,y,z);
                     if (zhertva.getType().isAir()||zhertva.getType().getHardness()<0){continue;}
                     if (nigrist.contains(zhertva.getType().name())){continue;}
-                    getLogger().info("rabotat3");
                     skameika_zapasnih.add(zhertva);
                     zhertva.breakNaturally();
                     skameika_zapasnih.remove(zhertva);
@@ -123,6 +166,15 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
             }
         }
     }
+
+    private @NotNull ItemStack createsuperfurnance() {
+        ItemStack musordrop=new ItemStack(Material.FURNACE,1);
+        ItemMeta dannie=musordrop.getItemMeta();
+        dannie.setCustomModelData(6768);
+        dannie.setDisplayName("&c&l");
+        return();
+    }
+
     @Override
     public void onDisable() {
         getLogger().info("end of industrialization");
