@@ -166,15 +166,18 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
             }
         }
     }
-
-    private @NotNull ItemStack createsuperfurnance() {
-        ItemStack musordrop=new ItemStack(Material.FURNACE,1);
-        ItemMeta dannie=musordrop.getItemMeta();
-        dannie.setCustomModelData(6768);
-        dannie.setDisplayName("&c&l");
-        return();
+    public ItemStack crtmusor_drop(){
+        Material material= Material.FURNACE;
+        ItemStack item=new ItemStack(material);
+        ItemMeta itmmt=item.getItemMeta();
+        if (itmmt==null){
+            return item;
+        }
+        itmmt.setCustomModelData(6768);
+        itmmt.setDisplayName("&l&4super pechka");
+        item.setItemMeta(itmmt);
+        return item;
     }
-
     @Override
     public void onDisable() {
         getLogger().info("end of industrialization");

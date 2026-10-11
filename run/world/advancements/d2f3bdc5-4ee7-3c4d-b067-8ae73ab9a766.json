@@ -230,54 +230,237 @@
   },
   "minecraft:story/root": {
     "criteria": {
+<<<<<<< HEAD
       "crafting_table": "2026-09-20 10:21:29 +0300"
+=======
+      "crafting_table": "2026-10-04 10:13:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-04 10:14:47 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/tools/clock": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/redstone/target": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/tools/compass": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
+<<<<<<< HEAD
       "has_redstone": "2026-09-20 10:22:03 +0300"
     },
     "done": true
@@ -448,66 +631,217 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2026-09-20 10:28:12 +0300"
+=======
+      "has_redstone": "2026-10-04 10:14:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-10-04 10:28:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
+<<<<<<< HEAD
       "has_granite": "2026-09-27 10:27:23 +0300"
+=======
+      "has_granite": "2026-10-04 10:28:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-10-04 10:28:44 +0300"
+>>>>>>> refs/remotes/origin/master
     },
     "done": true
   },
