@@ -5,6 +5,7 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
+import org.bukkit.block.Furnace;
 import org.bukkit.block.data.Directional;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.TabCompleter;
@@ -18,6 +19,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
+import org.bukkit.event.inventory.FurnaceStartSmeltEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -177,6 +179,29 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
         itmmt.setCustomModelData(6768);
         item.setItemMeta(itmmt);
         return item;
+    }
+    public void acelelator(Block pechka){
+        if (pechka==null){
+            return;
+        }
+        if (pechka.getState() instanceof Furnace furnance){
+            double aclrtn=4.0;
+            boolean update_aclrtn=false;
+            if (!furnance.getPersistentDataContainer().has(pechka_blocka_grechkey,PersistentDataType.STRING)){
+                update_aclrtn=true;
+            }
+            if (Math.abs(furnance.getCookSpeedMultiplier()-aclrtn)>0.001){
+                furnance.setCookSpeedMultiplier(aclrtn);
+                update_aclrtn=true;
+                }
+            if (update_aclrtn){
+                furnance.update();
+            }
+        }
+    }
+    @EventHandler
+    public void start_gorit(FurnaceStartSmeltEvent event){
+
     }
     @Override
     public void onDisable() {
