@@ -13,12 +13,14 @@ import org.bukkit.entity.Display;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.ItemDisplay;
 import org.bukkit.entity.Player;
+import org.bukkit.event.Event;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
+import org.bukkit.event.inventory.FurnaceBurnEvent;
 import org.bukkit.event.inventory.FurnaceStartSmeltEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
@@ -105,7 +107,7 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
                        new Vector3f(0.2501f,0.2501f,0.2501f),
                        new AxisAngle4f(0f,0f,0f,0f)
                ));
-               display.setBrightness(new Display.Brightness(10,15));
+               display.setBrightness(new Display.Brightness(0,15));
                display.setRotation(grand_final_Spin,0f);
            });
        }
@@ -199,9 +201,32 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
             }
         }
     }
+    public boolean ispech(Block block){
+        if(block==null){
+            return false;
+        }
+        if (block.getType()!=Material.FURNACE){
+            return false;
+        }
+        if (!(block.getState() instanceof Furnace pech)){
+            return false;
+        }
+        if (pech.getPersistentDataContainer().has(pechka_blocka_grechkey,PersistentDataType.STRING)){
+            return true;
+        }
+        return false;
+    }
     @EventHandler
     public void start_gorit(FurnaceStartSmeltEvent event){
-
+        if (ispech(event.getBlock())){
+            acelelator(event.getBlock());
+        }
+    }
+    @EventHandler
+    public void gori(FurnaceBurnEvent gorit){
+        if (ispech(gorit.getBlock())){
+            acelelator(gorit.getBlock());
+        }
     }
     @Override
     public void onDisable() {
