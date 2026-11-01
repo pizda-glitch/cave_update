@@ -110,6 +110,9 @@ public final class CaveUpdate extends JavaPlugin implements Listener, CommandExe
                display.setBrightness(new Display.Brightness(0,15));
                display.setRotation(grand_final_Spin,0f);
            });
+           Furnace furnance=(Furnace)pechka_block.getState();
+           furnance.getPersistentDataContainer().set(pechka_blocka_grechkey,PersistentDataType.STRING,"superpech");
+           acelelator(pechka_block);
        }
     }
     @EventHandler
